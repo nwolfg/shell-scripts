@@ -12,9 +12,9 @@ mongodb_user 此变量配置为要备份主机数据库实例的管理用户
 
 例如： mongodb_user=admin
 
-mongodb_passwd 此变量配置为要备份主机数据库实例的管理密码,如密码中有特殊字符，需进行转义.(admin\$123)
+mongodb_passwd 此变量配置为要备份主机数据库实例的管理密码,如密码中有特殊字符，需进行转义.(admin\\$123)
 
-例如： mongodb_passwd="admin\$123"
+例如： mongodb_passwd=admin\\$123
 
 port_list 此变量记录备份主机上数据库实例的端口，可以配置多个
 
