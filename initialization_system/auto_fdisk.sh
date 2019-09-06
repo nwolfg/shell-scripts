@@ -2,7 +2,7 @@
 #
 #Function:    auto fdisk
 #Usage:	      bash auto_fdisk.sh
-#Auth:        fuzepeng
+#Author:        fuzepeng
 
 ###############the points of notice###########
 # 1.the script must be run the first time without mkdir any data directory .(E.g mount_dir )
